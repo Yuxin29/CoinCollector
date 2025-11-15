@@ -67,7 +67,7 @@ class Coincollector:
             return True
 
     def draw_window(self):
-        self.window.fill((24,164,86))
+        self.window.fill((0,0,0))
         
         game_text = self.game_font.render("Coins: " + str(self.coins), True, (255, 0, 0))
         self.window.blit(game_text, (25, self.height * self.scale + 10))
